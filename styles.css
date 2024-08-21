@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(190, 170, 199);
+    font-family: "Shadows Into Light", cursive;
+
+    section {
+        background-color: cadetblue;
+        border: solid 8px rgb(42, 87, 88);
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 2%;
+        font-size: 35px;
+        color: rgb(43, 4, 53);
+    }
+
+    section2 {
+        margin-left: 25%;
+        margin-right: 50%;
+        font-size: 32px;
+        color:  rgb(43, 4, 53);
+        display: flex;
+
+        div {
+            margin-left: 5%;
+        }
+
+        div2 {
+            margin-right: 5%;
+            margin-top: 10%;
+            line-height: 400%;
+            display: grid;
+        }
+
+        div3 {
+            margin-left: 17%;
+            margin-top: 20%;
+            display: list-item;
+            color: rgb(190, 170, 199);
+        }
+    }
+}
